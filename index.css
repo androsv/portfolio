@@ -1,0 +1,86 @@
+body {
+  font-family: "Roboto";
+  color: whitesmoke;
+}
+.container {
+  width: 80%;
+  margin: 200px auto;
+  padding: 0;
+  text-align: center;
+}
+.my-links {
+  width: 30%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.intro {
+  font-weight: 600;
+  font-size: 26px;
+}
+.designation {
+  font-weight: 300;
+  font-size: 24px;
+}
+.skill {
+  font-size: 26px;
+  font-weight: 400;
+}
+.lang {
+  border: 1px solid;
+  padding: 3px;
+  display: inline-block;
+  min-width: 132px;
+  animation: fade 1s linear infinite;
+}
+
+.gradient-background {
+  height: 600px;
+  background: linear-gradient(62deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+}
+@keyframes fade {
+  0% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 10%;
+  }
+}
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+a,
+a:active,
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+  .my-links {
+    width: 80%;
+  }
+  .intro {
+    font-size: 22px;
+  }
+}

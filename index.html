@@ -7,83 +7,18 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./index.css" />
     <title>Satish Vadera's portfolio</title>
   </head>
-  <style>
-    body {
-      font-family: "Roboto";
-      color: whitesmoke;
-    }
-    .container {
-      width: 80%;
-      margin: 200px auto;
-      padding: 0;
-      text-align: center;
-    }
-    .my-links {
-      width: 30%;
-      margin: 40px auto;
-      display: flex;
-      justify-content: space-between;
-    }
-    .intro {
-      font-weight: 600;
-      font-size: 26px;
-    }
-    .designation {
-      font-weight: 300;
-      font-size: 24px;
-    }
-    .skill {
-      font-size: 22px;
-      font-weight: 400;
-    }
-    .gradient-background {
-      height: 600px;
-      background: linear-gradient(62deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-      animation: gradient 15s ease infinite;
-      background-size: 400% 400%;
-    }
-    @-webkit-keyframes gradient {
-      0% {
-        background-position: 0 50%;
-      }
-      50% {
-        background-position: 100% 50%;
-      }
-      100% {
-        background-position: 0% 50%;
-      }
-    }
-    @keyframes gradient {
-      0% {
-        background-position: 0 50%;
-      }
-      50% {
-        background-position: 100% 50%;
-      }
-      100% {
-        background-position: 0% 50%;
-      }
-    }
-    a,
-    a:active,
-    a:visited {
-      color: black;
-      text-decoration: none;
-    }
-    @media only screen and (max-width: 600px) {
-      .my-links {
-        width: 80%;
-      }
-    }
-  </style>
+  <style></style>
   <body class="gradient-background">
     <div class="container">
       <section class="my-info">
         <p class="intro">Hello 👋 I am Satish Vadera</p>
-        <p class="designation">Full-Stack Web Developer | Software Engineer</p>
-        <p class="skill">Javascript | React | Node | Angular | Golang</p>
+        <p class="designation">Full-Stack Web Developer</p>
+        <p class="skill">
+          I work with <span id="lang-selector" class="lang">Javascript</span>
+        </p>
       </section>
       <section class="my-links">
         <a
