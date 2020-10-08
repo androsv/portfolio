@@ -83,4 +83,10 @@ a:visited {
   .intro {
     font-size: 22px;
   }
+  .designation {
+    font-size: 22px;
+  }
+  .skill {
+    font-size: 24px;
+  }
 }
