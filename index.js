@@ -5,8 +5,8 @@ const langArr = [
   "React",
   "Node",
   "Angular",
-  "Css",
-  "Html",
+  "CSS",
+  "HTML",
   "Golang",
   "Vue",
 ];
